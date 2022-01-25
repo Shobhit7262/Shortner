@@ -7,6 +7,7 @@ $ mvn spring-boot:run
 ```
 
 Can be navigated on http://localhost:8080/ in the browser.
+After opening on local host a html page is returned as a responce for the first end point, which has a input block where the url to be shortened can be entered and after clicking the button a post request is made with the url as a parameter and again the html page is rendered along with the shortened url text block whicbh can be later stored, copied or kept for future reference.
 
 ## Components
 
